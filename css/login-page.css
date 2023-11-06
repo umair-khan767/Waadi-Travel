@@ -16,6 +16,10 @@
 .login-page .row {
     margin-top: 15%;
 }
+.header-text img{
+    height: 350px;
+    float: left;
+}
 
 .header-text {
     padding-left: 20px;
@@ -50,7 +54,6 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-
 }
 
 .header-text {
@@ -81,4 +84,14 @@
     font-weight: 300;
     line-height: 2.5;
     text-align: center;
+}
+.icon .fa-brands{
+    border: 1px solid white;
+    background: #fff;
+    border-radius: 100px;
+    font-size: 30px;
+}
+.icon{
+    text-align: center;
+   
 }
