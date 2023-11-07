@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    background-color: #020202bc;
+}
+.navbar-brand img{
+    width: 200px;
+    height: auto;
+}
+.navbar-nav .nav-item a{
+    /* justify-content: end; */
+}
+
+.header{
+    background-image: url(../images/menu\ page\ bg.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+}
