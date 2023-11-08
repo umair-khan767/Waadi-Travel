@@ -143,3 +143,6 @@ padding: 5px 40px;
     font-family: initial;
     text-align: center;
 }
+.form-select{
+    border: none;
+}

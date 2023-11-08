@@ -10,14 +10,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container">
           <a class="navbar-brand" href="#"><img src="images/Waadi 1.png" alt=""></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Accommodation</a>
               </li>
@@ -44,14 +44,78 @@
         </div>
       </nav>
 
-      <section>
-        <div class="header">
-            <div class="row">
-                <div class="col-12">
-                    <h1>Welcome</h1>
+      <section class="header">
+        <div class="container">
+                   <div class="row">
+                <div class="col-md-12">
+                    <h1>Welcome To Waadi Travel</h1>
                 </div>
+                <div class="selector d-flex py-2 ">
+                  <div class="">
+                      <i class="fa-solid fa-magnifying-glass"></i>
+                      <input class="py-3 ps-4" type="text" id="keyword" name="keyword" placeholder="Keywords..."><br>
+                  </div>
+                  <div>
+                      <select class="form-select ps-3 pe-5 py-2 my-2 " aria-label="Default select example">
+                          <i class="fa-solid fa-briefcase"></i>
+                          <option selected>Select Category</option>
+                          <option value="1">Apartment</option>
+                          <option value="2">Condos</option>
+                          <option value="4">Dener</option>
+                          <option value="5">Houses</option>
+                          <option value="6">Offices</option>
+                          <option value="7">Rental</option>
+                          <option value="8">Studios</option>
+                          <option value="9">Villas</option>
+                      </select>
+                  </div>
+                  <div>
+                      <select class="form-select ps-3 pe-5 py-2 my-2" aria-label="Default select example">
+                          <i class="fa-solid fa-briefcase"></i>
+                          <option selected>Select Category</option>
+                          <option value="1">Apartment</option>
+                          <option value="2">Mansehra</option>
+                          <option value="4">Abbottabad</option>
+                          <option value="5">Haripur</option>
+                          <option value="6">Rawalpindi</option>
+                          <option value="7">Islamabad</option>
+                          <option value="8">Lahore</option>
+                          <option value="9">Peshawar</option>
+                      </select>
+                  </div>
+                  <div class="bg-primar py-1">
+                      <button type="button">Search</button>
+                  </div>
+              </div>
+          </div>
+      </div>
             </div>
-        </div>
+      </div>
+
       </section>
+
+      <!-- Places Section start  -->
+    <section class="places my-5">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-3">
+                  <div class="detail">
+                      <img src="images/Rectangle 29.jpg" alt="...">
+                      <div class=" mt-3">
+                          <span class="px-3">(12 Rooms Available)</span>
+                      </div>
+                      <h4 class="mt-3">New Honey Moon</h4>
+                      <div class="location">
+                        <h6>Kalam</h6>
+                      </div>
+                      <hr>
+                      <div class="foot-location text-secondary pb-2">
+                          <p>From PKR 5K/Night <small class="float-end">10%OFF</small></p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          </div>
+    </section>
 </body>
 </html>

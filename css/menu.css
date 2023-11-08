@@ -7,18 +7,129 @@
     background-color: #020202bc;
 }
 .navbar-brand img{
-    width: 200px;
+    width: 150px;
     height: auto;
-}
-.navbar-nav .nav-item a{
-    /* justify-content: end; */
 }
 
 .header{
-    background-image: url(../images/menu\ page\ bg.jpg);
-    height: 100vh;
+    background-image: url(../images/bg.jpg);
+    height: 83vh;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
-    justify-content: center;
+    background-position: center;    
+}
+.header h1{
+    font-size: 80px;
+    font-weight: 700;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10%;
+    color: #FC8D09;
+}
+
+.selector i{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 5px;
+    color: rgb(173, 172, 172);
+}
+
+.selector input{
+    border: none;
+    border: white;
+}
+
+.selector{
+    background-color: white;
+    border-radius: 6px;
+    justify-content: space-evenly;
+    margin-top: 15%;
+}
+
+.selector button{
+    margin-left: 40px;
+    /* margin-top: 8px; */
+    padding: 12px 30px 12px 30px;
+    color: white;
+    background-color: rgb(70, 70, 250);
+    border: 1px solid rgb(70, 70, 250);
+    border-radius: 5px;
+}
+/* Selector off  */
+.places img{
+    width: 304px;
+    height: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.places .detail{
+background-color: white;
+border-radius: 10px;
+}
+.places .detail span{
+font-size: 16px;
+background-color: #FC8D09;
+color: #FFF;
+font-family: Inter;
+
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.places .detail .price{
+    margin-top: -20px;
+    position: absolute;
+    margin-left: 9%;
+    position: relative;
+    font-weight: 600;
+}
+.places h4{
+    color: #000;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.places .fa-solid{
+    font-size: 9px;
+    border-radius: 100px;
+    padding: 5px;
+    margin-left: 29px;
+    margin-right: 8px;
+}
+
+
+.foot-location p{
+    color: #000;
+/* text-align: center; */
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.foot-location small{
+    color: #00300D;
+text-align: center;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.detail small{
+    font-size: 20px;
+}
+.location h6{
+    color: #000;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
 }
