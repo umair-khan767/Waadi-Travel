@@ -43,7 +43,7 @@
     background-color: white;
     border-radius: 6px;
     justify-content: space-evenly;
-    margin-top: 15%;
+    margin-top: 25%;
 }
 
 .selector button{
@@ -56,9 +56,10 @@
     border-radius: 5px;
 }
 /* Selector off  */
+
 .places img{
-    width: 304px;
-    height: auto;
+    width: 306px;
+    height: 100%;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
@@ -132,4 +133,9 @@ font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+}
+.places .detail{
+    
+    background-color: rgba(232, 230, 230, 0.187);
+    box-shadow: 0px 0px 5px 5px #e7e5e5;
 }

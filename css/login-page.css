@@ -95,19 +95,21 @@
     border-radius: 100px;
     font-size: 30px;
     fill: #FFF;
-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     margin-right: 20px;
 }
 
 .icon {
     text-align: center;
 }
-span .fa-brands{
+
+span .fa-brands {
     padding: 0 3px;
 }
+
 .btn button {
     border-radius: 5px;
-    border: 2px solid #FFF;
+    border: 1px solid #fff;
     background: #FC8D09;
     color: #FFF;
     text-align: center;
@@ -116,15 +118,16 @@ span .fa-brands{
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-padding: 5px 40px;
+    padding: 5px 40px;
 }
-.btn{
+
+.btn {
     justify-content: center;
 }
 
 /* ===================================== */
 
-.first-row-data h1{
+.first-row-data h1 {
     font-size: 60px;
     font-weight: 700;
     color: #FC8D09;
@@ -132,17 +135,19 @@ padding: 5px 40px;
     margin-bottom: 10px;
 }
 
-.first-row-data img{
+.first-row-data img {
     width: 550px;
     margin-bottom: -50px;
 }
-.first-row-data p{
+
+.first-row-data p {
     font-size: 25px;
     font-weight: 600;
     color: white;
     font-family: initial;
     text-align: center;
 }
-.form-select{
+
+.form-select {
     border: none;
 }
