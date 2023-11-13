@@ -1,11 +1,153 @@
-*{
+* {
     margin: 0%;
     padding: 0%;
 }
-.c-item{
-    height: 850px;
+
+.navbar{
+    background-color: #020202bc;
 }
-.c-img{
-    height: 100%;
+.navbar-brand img{
+    width: 150px;
+    height: auto;
+}
+
+
+.c-item {
+    height: auto;
+}
+
+.c-img {
+    height: auto;
     object-fit: cover;
+}
+
+.c-item h5 {
+    color: #000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.c-item p {
+    color: #FC8D09;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.booknow h6{
+    color: #000;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.booknow p{
+    color: #000;
+text-align: justify;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+
+.btn small{
+    color: #656565;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+padding-right: 10px;
+}
+.btn button{
+    color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+border: 2px solid #FC8D09;
+border-radius: 2px;
+background: #FC8D09;
+padding: 5px 10px;
+}
+
+/* ==================================== related hotel styling Start =========================== */
+.related-hotels .row{
+    border-radius: 3px;
+    border: 1px solid #EAE8E8;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 10px 0px;
+}
+.detail-hotels{
+    width: 40%;
+    height: auto;
+}
+.img1 img{
+    width: 14rem;
+    height: auto;
+}
+.detail{
+    position: absolute;
+    margin-left: 15rem;
+}
+.detail h2{
+    color: #000;
+font-family: Inter;
+font-size: 25px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.detail p{
+    color: #656565;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.icons{
+    margin-top: 60px;
+}
+
+.price small{
+    color: #FF0202;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-decoration-line: strikethrough;
+}
+.price h3{
+    color: #000;
+font-family: Inter;
+font-size: 25px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.price button{
+    color: #FFF;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+border: 2px solid #FC8D09;
+border-radius: 2px;
+background: #FC8D09;
+padding: 5px 10px;
+margin-top: 30px;
 }
