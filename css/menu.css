@@ -43,7 +43,7 @@
     background-color: white;
     border-radius: 6px;
     justify-content: space-evenly;
-    margin-top: 15%;
+    margin-top: 9%;
 }
 
 .selector button{
@@ -58,7 +58,7 @@
 /* Selector off  */
 
 .places img{
-    width: 306px;
+    width: 261px;
     height: 100%;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -89,7 +89,7 @@ line-height: normal;
 .places h4{
     color: #000;
     font-family: Inter;
-    font-size: 30px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -108,7 +108,7 @@ line-height: normal;
     color: #000;
 /* text-align: center; */
 font-family: Inter;
-font-size: 18px;
+font-size: 14px;
 font-style: normal;
 font-weight: 600;
 line-height: normal;
@@ -124,7 +124,7 @@ line-height: normal;
 }
 
 .detail small{
-    font-size: 20px;
+    font-size: 14px;
 }
 .location h6{
     color: #000;
