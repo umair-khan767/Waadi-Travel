@@ -90,14 +90,18 @@ padding: 5px 10px;
 .detail-hotels{
     width: 40%;
     height: auto;
+    justify-content: space-between;
+    margin-top: 40px;
 }
 .img1 img{
     width: 8rem;
     height: auto;
 }
+.related-hotels .row{
+    justify-content: space-between;
+}
 .detail{
-    position: absolute;
-    margin-left: 9rem;
+    text-align: center;
 }
 .detail h2{
     color: #000;
@@ -115,11 +119,9 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 }
-.detail .price{
-    float: right;
-}
 
-.price small{
+
+.detail small{
     color: #FF0202;
 font-family: Inter;
 font-size: 14px;
@@ -127,25 +129,13 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 text-decoration-line: strikethrough;
+
 }
-.price h3{
+.detail h3{
     color: #000;
 font-family: Inter;
-font-size: 20px;
+font-size: 16px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
-}
-.price button{
-    color: #FFF;
-font-family: Inter;
-font-size: 20px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-border: 2px solid #FC8D09;
-border-radius: 2px;
-background: #FC8D09;
-padding: 5px 10px;
-margin-top: 30px;
 }
