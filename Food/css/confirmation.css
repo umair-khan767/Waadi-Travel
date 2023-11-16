@@ -1,0 +1,170 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    background-color: #020202bc;
+}
+
+.navbar-brand img {
+    width: 150px;
+    height: auto;
+}
+
+.Conformation .row {
+    border: 2px solid #FFF;
+    background: #E7E9ED;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.confirm i {
+    font-size: 30px;
+}
+
+.confirm small {
+    color: #000;
+    font-family: Myanmar Khyay;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 30px;
+}
+
+.confirm h1 {
+    color: #000;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 30px;
+}
+
+.Conformation label {
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.Conformation input {
+    border-radius: 5px;
+    border: 0.5px solid #000;
+    background: #FFF;
+    color: #1E1C1C;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 8px 20px;
+}
+
+/* ================ Selector Styling ================= */
+
+
+.selector .select-1 {
+    padding: 0 20px;
+}
+
+.selector .select-1 h6 {
+    margin-left: 6rem;
+    color: #000;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.selector .select-2 h6 {
+    color: #000;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.selector .select-2 small{
+    color: #FF0101;
+font-family: Inter;
+font-size: 6px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.selector .select{
+    padding: 5px 15px;
+    background-color: #FFF;
+    border: 1px solid #656565;
+    border-radius: 5px;
+}
+/* ================ Selector Styling End ================= */
+.row hr{
+    margin-top: 15px;
+    border: none;
+  height: 1px;
+  color: #333; 
+  background-color: #333;
+}
+/* ====================== Term & Conditions Section Start ===================== */
+
+.peraghraph h3{
+    overflow: hidden;
+color: #000;
+text-overflow: ellipsis;
+white-space: nowrap;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;    
+}
+.peraghraph p{
+    color: #000;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 2;
+margin-right: 20rem;
+}
+.checkbox input{
+    border: 1px solid #000;
+background: #FFF;
+margin-left: 5rem;
+}
+.checkbox label{color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.btn button{
+    border-radius: 5px;
+border: 2px solid #FFF;
+background: #FC8D09;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding: 5px 15px;
+margin-left: 55rem;
+}
+.btn button:hover{
+    background-color: #FFF;
+    color: #FC8D09;
+    border: 2px solid #FC8D09;
+}
+/* ====================== Term & Conditions Section End ===================== */
