@@ -127,3 +127,11 @@ font-style: normal;
 font-weight: 600;
 line-height: normal;
 }
+
+/* =================== Media Query====================== */
+
+/* @media screen (max-width: 570px;) { 
+.congratulations img {
+    margin-left: 10%;
+}
+} */
