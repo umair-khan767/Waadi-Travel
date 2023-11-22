@@ -2,27 +2,29 @@
     margin: 0;
     padding: 0;
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Playfair+Display&family=Poppins:wght@500&display=swap');
 
-.navbar{
+.navbar {
     background-color: #020202bc;
 }
-.navbar-brand img{
+
+.navbar-brand img {
     width: 150px;
     height: auto;
 }
 
-.header{
+.header {
     background-image: url(/images/swat.jpg);
     height: 83vh;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: cover;   
-    
+    background-position: cover;
+
 }
 
-.header h1{
+.header h1 {
     font-size: 80px;
     font-weight: 700;
     text-align: center;
@@ -31,26 +33,26 @@
     color: #FC8D09;
 }
 
-.selector i{
+.selector i {
     position: absolute;
     margin-top: 20px;
     margin-left: 5px;
     color: rgb(173, 172, 172);
 }
 
-.selector input{
+.selector input {
     border: none;
     border: white;
 }
 
-.selector{
+.selector {
     background-color: white;
     border-radius: 6px;
     justify-content: space-evenly;
     margin-top: 9%;
 }
 
-.selector button{
+.selector button {
     margin-left: 40px;
     /* margin-top: 8px; */
     padding: 12px 30px 12px 30px;
@@ -59,44 +61,49 @@
     border: 1px solid rgb(70, 70, 250);
     border-radius: 5px;
 }
+
 /* Selector off  */
 
 /* new section styling start */
-.group h5{
+.group h5 {
     color: #000;
-font-family: Inter;
-font-size: 18px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-cursor: pointer;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    cursor: pointer;
 }
 
-.group h5:hover{
+.group h5:hover {
     color: #150261;
-font-family: Inter;
-font-size: 18px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
+
 .choose-location {
     display: flex;
     justify-content: space-between;
-    
+
 }
-.choose small{
+
+.choose small {
     color: #2C2A2A;
-font-family: Inter;
-font-size: 20px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
-.choose input{
+
+.choose input {
     margin-left: 30px;
 }
-.choose label{
+
+.choose label {
     color: #000;
     font-family: Inter;
     font-size: 18px;
@@ -105,154 +112,190 @@ line-height: normal;
     line-height: normal;
 }
 
-.btn button{
+.btn button {
     border-radius: 5px;
-border: 2px solid #FFF;
-background: #FC8D09;
-color: #FFF;
-text-align: center;
-font-family: Inter;
-font-size: 22px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-padding: 5px 10px;
+    border: 2px solid #FFF;
+    background: #FC8D09;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 5px 10px;
 }
 
-.group .tour{
+.group .tour {
     background-image: url(/images/tour\ plan.jpg);
     height: 50vh;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: cover;  
+    background-position: cover;
 }
 
-.tour h4{
+.tour h4 {
     color: #000;
-    -webkit-text-stroke: 1px #FFF ;
-font-family: "Poppins",sans-serif;
-font-size: 60px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-position: relative;
+    -webkit-text-stroke: 1px #FFF;
+    font-family: "Poppins", sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: relative;
 }
-.day{
+
+.day {
     position: absolute;
     margin: -68px 0px 0px 68px;
 }
-.day small{
+
+.day small {
     color: #FFF;
-font-family: Inter;
-font-size: 16px;
-font-style: normal;
-font-weight: 600;
-line-height: 1.2;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.2;
 
 }
 
-.group .heading{
+.group .heading {
     justify-content: center;
 }
-.heading h1{
+
+.heading h1 {
     color: #FE7E07;
-font-family: Inter;
-font-size: 70px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-text-align: center;
--webkit-text-stroke: 1px #FFF ;
+    font-family: Inter;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    -webkit-text-stroke: 1px #FFF;
 }
 
-.heading p{
+.heading p {
     color: #FFF;
-font-family: "Poppins",sans-serif;
-font-size: 22px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
 }
 
-.group .icon{
+.group .icon {
     margin-top: 70px;
     margin-left: 10px;
 }
 
-.icon i{
+.icon i {
     padding-left: 10px;
     font-size: 20px;
 }
-.icon small{
+
+.icon small {
     color: #FFF;
-font-family: Inter;
-font-size: 16px;
-font-style: normal;
-font-weight: 900;
-line-height: normal;
-letter-spacing: 1.02px;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 1.02px;
 }
 
-.main-div h4{
+.main-div h4 {
     color: #00300D;
-font-family: sans-serif;
-font-size: 20px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
-.main-div span{
+
+.main-div span {
     color: #F00;
-font-family: Inter;
-font-size: 14px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-text-decoration-line: strikethrough;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration-line: strikethrough;
 }
-.main-div h6{
+
+.main-div h6 {
     color: #00300D;
-font-family: sans-serif;
-font-size: 16px;
-font-style: normal;
-font-weight: 600;
-line-height: 1;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1;
 }
 
 /* new section styling  end */
 
-section .schedule {
+.schedule .row{
     fill: #FFF;
-stroke-width: 1px;
-stroke: #EAE8E8;
-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    stroke-width: 1px;
+    stroke: #EAE8E8;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
-.schedule .date{
+
+.schedule .date {
     border-radius: 5px 0px;
-background: #00300D;
-padding: 3px 0px;
+    background: #00300D;
+    padding: 3px 0px;
 }
 
-.schedule small{
+.schedule small {
     border-radius: 1px;
-background: #FFFBFF;
-color: #000;
-font-family: Inter;
-font-size: 11px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-margin-top: 10px;
-padding: 3px 10px;
+    background: #FFFBFF;
+    color: #000;
+    font-family: Inter;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 10px;
+    padding: 3px 10px;
 }
 
-.schedule h2{
+.schedule h2 {
     color: #FFF;
-font-family: sans-serif;
-font-size: 25px;
+    font-family: sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.description h4{
+    color: #000;
+font-family: "Poppins" sans-serif;
+font-size: 18px;
 font-style: normal;
 font-weight: 600;
 line-height: normal;
+}
+
+.description h6{
+    color: #000;
+font-family: "Poppins" sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.description p{
+    color: #000;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.description img{
+    width: 100px;
 }
