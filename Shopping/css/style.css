@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Playfair+Display&family=Poppins:wght@500&display=swap');
+
+.navbar {
+    background-color: #020202bc;
+}
+
+.navbar-brand img {
+    width: 150px;
+    height: auto;
+}
+
+.header {
+    background-image: url(/images/dried\ fruit);
+    height: 83vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.header h1 {
+    font-size: 80px;
+    font-weight: 700;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10%;
+    color: #FC8D09;
+}
+
+.form-select{
+    background-color: #FC8D09;
+}
+.selector i {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 5px;
+    color: rgb(173, 172, 172);
+}
+
+.selector input {
+    border: none;
+    border: 1px solid #FC8D09;
+}
+
+.selector {
+    background-color: #FC8D09;
+    border-radius: 6px;
+    justify-content: space-evenly;
+    margin-top: 9%;
+}
+
+.selector button {
+    margin-left: 40px;
+    /* margin-top: 8px; */
+    padding: 12px 30px 12px 30px;
+    color: white;
+    background-color: #0b0600;
+    border: 1px solid #FC8D09;
+    border-radius: 5px;
+}
+
+ #keyword{
+    background-color: #FC8D09;
+    border: 1px solid #FFF;
+    border-radius: 7px;
+}
+
+/* Selector off  */
+
+.places img{
+    width: 261px;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.places .detail{
+background-color: white;
+border-radius: 10px;
+}
+span{
+    color: #000;
+    font-family: Inter;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.places .detail .price{
+    margin-top: -20px;
+    position: absolute;
+    margin-left: 9%;
+    position: relative;
+    font-weight: 600;
+}
+.places h4{
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.places .fa-solid{
+    font-size: 9px;
+    border-radius: 100px;
+    padding: 5px;
+    
+}
+
+
+.foot-location p{
+    color: #000;
+/* text-align: center; */
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.foot-location small{
+    color: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.detail small{
+    font-size: 14px;
+}
+.location h6{
+    color: #000;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.location span{
+    color: #000;
+font-family: Myanmar Khyay;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.location .fa-solid{
+    color: #FE7E07;
+    font-size: 11px;
+}
+
+.location small{
+    color: #000;
+font-family: Inter;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.location{
+    border-bottom: 1px solid #000;
+}
+.places .detail{
+    background-color: rgba(232, 230, 230, 0.187);
+    box-shadow: 0px 0px 5px 5px #e7e5e5;
+}
