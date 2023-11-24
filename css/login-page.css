@@ -162,6 +162,7 @@ span .fa-brands {
 /* ==================== Media Queries ===================== */
 
 @media screen and (max-width: 502px) {
+
     .first-row-data img {
         width: 350px;
         display: block;
@@ -182,5 +183,9 @@ span .fa-brands {
     .header-text{
         width: 100%;
         margin-top: 30%;
+    }
+
+    .login-page{
+        height: 100vh;
     }
 }
