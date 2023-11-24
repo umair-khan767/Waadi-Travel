@@ -72,3 +72,80 @@
     width: 170px;
     margin-top: 2%;
 }
+
+
+/* ================= Media Query Strat ======================= */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .home-page img{
+        margin-left: 1%;
+        width: 350px;
+    }
+    .home-page p{
+        font-size: 30px;
+        margin-top: 20%;
+    }
+    .home-page h3{
+        margin-top: 1px;
+    }
+    .home-page h6{
+        margin-top: 20%;
+        text-align: center;
+    }
+    .data button{
+        margin-top: 50%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+    .home-page img{
+        margin-left: 1%;
+    }
+    .home-page p{
+        font-size: 30px;
+        margin-top: 20%;
+    }
+    .home-page h6{
+        margin-top: 20%;
+        text-align: center;
+    }
+    .data button{
+        margin-top: 50%;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 992px){
+   
+    .home-page img{
+        margin-left: 14%;
+    }
+
+    .home-page h6{
+        text-align: center;
+        margin-top: 10%;
+}
+
+.data button{
+    margin-top: 50px;
+}  
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media (min-width: 992px) and (max-width:1200px) {
+    .home-page img{
+        margin-left: 23%;
+    }
+    .home-page p{
+        font-size: 50px;
+    }
+    .home-page h6{
+        margin-top: 8%;
+    }
+    .data button{
+        margin-top: 50px;
+    }
+}
+
